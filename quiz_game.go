@@ -3,16 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var name string = "Saif"
-	var age int = 124
-	var salary float64 = 1000.50
-	var isMarried bool = true
+	var name string
+	fmt.Printf("What is your name? : ")
+	fmt.Scan(&name)
+	fmt.Printf("Hello, %v, Welcome to the game!\n", name)
 
-	dynamicType := "Dynamic Value"
+	var age uint
+	fmt.Printf("Enter your age? : ")
+	fmt.Scan(&age)
 
-	fmt.Println("Hello, my name is", name, "and I am", age, "years old. I earn", salary, "per year. I am married:", isMarried,
-		"and my dynamic type is:", dynamicType)
-
-	// In line variable declaration
-	fmt.Printf("Hello, my name is %v and I am %v years old. I earn %v per year. I am married: %v and my dynamic type is: %v", name, age, salary, isMarried, dynamicType)
+	fmt.Println(age >= 18)
 }
