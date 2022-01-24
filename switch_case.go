@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func switch_case() {
 	ans := 2
 	switch ans {
 	case 1:

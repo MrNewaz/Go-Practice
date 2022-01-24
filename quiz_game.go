@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func quiz_game() {
 	var name string
 	fmt.Printf("What is your name?: ")
 	fmt.Scan(&name)

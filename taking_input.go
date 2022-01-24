@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func input() {
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Printf("Type Something?: ")
 	scanner.Scan()

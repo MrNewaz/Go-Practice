@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func variable() {
 	var name string = "Saif"
 	var age int = 124
 	var salary float64 = 1000.50
