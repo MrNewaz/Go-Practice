@@ -6,6 +6,9 @@ func maps() {
 	var mp map[string]int = map[string]int{"a": 1, "b": 2, "c": 3}
 
 	fmt.Println(mp)
+	fmt.Println(mp)
+	fmt.Println(mp)
+	fmt.Println(mp)
 
 	// Another Way
 
@@ -14,6 +17,17 @@ func maps() {
 	mp2["a"] = 1
 	mp2["b"] = 2
 	mp2["c"] = 3
+	mp2["a"] = 1
+	mp2["b"] = 2
+	mp2["c"] = 3
+	mp2["a"] = 1
+	mp2["b"] = 2
+	mp2["c"] = 3
 
+	fmt.Println(mp2)
+	fmt.Println(mp2)
+	fmt.Println(mp2)
+	fmt.Println(mp2)
+	fmt.Println(mp2)
 	fmt.Println(mp2)
 }

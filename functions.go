@@ -18,4 +18,13 @@ func functions() {
 	}(5, 10)
 
 	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
+	fmt.Println(test)
 }
