@@ -13,4 +13,5 @@ func ranges() {
 	for _, element := range a {
 		fmt.Println(element)
 	}
+
 }
