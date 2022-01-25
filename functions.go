@@ -8,7 +8,14 @@ func add(x int, y int) (z int) {
 
 }
 
-func main() {
-	x := add(10, 5)
-	fmt.Println(x)
+func functions() {
+	x := add
+
+	fmt.Println(x(5, 10))
+
+	test := func(x int, y int) int {
+		return x + y
+	}(5, 10)
+
+	fmt.Println(test)
 }
